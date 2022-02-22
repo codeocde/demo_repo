@@ -42,7 +42,7 @@ class _VideoAppState extends State<VideoApp> {
       title: 'Video Demo',
       home: Scaffold(
         appBar: AppBar(
-          title: Text("just fuckin work"),
+          title: Text("Talentgram"),
           actions: [
             chose_file(),
           ],
