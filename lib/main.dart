@@ -30,7 +30,7 @@ class _VideoAppState extends State<VideoApp> {
           else {vid = File(pickedfile.files.single.path.toString());
             init();}
         },
-        icon: Icon(Icons.insert_emoticon));
+        icon: Icon(Icons.add_box_outlined));
 
     Widget display() =>
         _controller != null && _controller!.value.isInitialized
@@ -42,7 +42,11 @@ class _VideoAppState extends State<VideoApp> {
       title: 'Video Demo',
       home: Scaffold(
         appBar: AppBar(
-          title: Text("Talentgram"),
+          title: Text("Talentgram",
+          style: TextStyle(
+            fontFamily: "Inter",
+          ),
+          ),
           actions: [
             chose_file(),
           ],
@@ -71,7 +75,7 @@ class _VideoAppState extends State<VideoApp> {
           )
           :Icon(
 
-            Icons.import_contacts,
+            Icons.indeterminate_check_box,
           ),
         ),
       ),
