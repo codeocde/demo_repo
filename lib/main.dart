@@ -75,7 +75,7 @@ class _VideoAppState extends State<VideoApp> {
           )
           :Icon(
 
-            Icons.indeterminate_check_box,
+            Icons.circle,
           ),
         ),
       ),
