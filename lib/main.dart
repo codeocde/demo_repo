@@ -39,7 +39,7 @@ class _VideoAppState extends State<VideoApp> {
                 child: Center(child: Text("no vid")),
               );
     return MaterialApp(
-      title: 'Video Demo',
+      title: 'Video',
       home: Scaffold(
         appBar: AppBar(
           title: Text("Talentgram",
